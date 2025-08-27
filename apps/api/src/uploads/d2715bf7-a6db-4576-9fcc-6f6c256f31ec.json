@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "filename": "LatestResumeSam.pdf",
+    "pages": 2,
+    "docId": "d2715bf7-a6db-4576-9fcc-6f6c256f31ec"
+  },
+  "pages": [
+    {
+      "page": 1,
+      "text": "Sameer Gedam ReactJs/.NET Developer +91-9623921609 samgedam0@gmail.com Pune, Maharashtra www.linkedin.com/in/sameer-gedam SUMMARY I am a full-stack software engineer who working at Cognizant for 2 years now. I am working on .NET and ReactJs technologies. I am looking for development opportunities. I am a calm and optimistic person. I can work under pressure and exceed expectations while working under pressure. I am a quick learner and can work in a rapidly changing environment. SKILLS Frontend HTML | CSS | JavaScript | ReactJs Framework Entity Framework | MVC | Web API | ASP.NET Core Backend MySQL | SQL Server | LINQ Programming Language C# | Java | Python | C | C++ WORK EXPERIENCE Software Engineer Nov 2021 - Present Cognizant Technology Solutions, Pune I work as a L3 support in the support and maintenance project. I work to improve the user experience and fix the bugs . I first fix the bugs on the dev environment and then publish the code to live on the IIS server . I did it by following the Change Management Process. I am also aware of the Incident Management Process. EDUCATION PGDM: IT MIT School of Distant Education, Pune CGPA: 10 Aug 2022 - Feb 2024 BE: IT SIT, Lonavala CGPA: 7 Jul 2015 - Jul 2021 SSC: MSBSHSE Indira Junior College, Chandrapur 60.49% Jul 2014 - Jun 2015 HSC: CBSE St. Mary High School, Durgapur CGPA: 10 Jul 2012 - Jun 2013 SOFTWARE Visual Studio 2022 | Visual Studio Code | SQL Server Management Studio"
+    },
+    {
+      "page": 2,
+      "text": "HOBBIES AND INTERESTS Competitive Coding I am learning DSA and did some Competitive Coding Challenges such as Google Kickstart and secured 4170th rank in Round F of Kickstart2020. CERTIFICATIONS HTML, CSS, JavaScript Jan 2023 - Dec 2023 Advanced Web Cluster Skill given by Cognizant as a part of SkillUp curriculum. React Jan 2023 - Dec 2023 Advanced Web Cluster Skill given by Cognizant as a part of SkillUp curriculum. Generative AI Fundamentals Jan 2024 - Jan 2024 Certified by Cognizant as part of Training on the latest technology and trends. Google Kickstart Jan 2020 - Dec 2020 Managed to get 4170th rank in Round F of Google Kickstart 2020. PROJECTS HealthCare Pharma Payments Nov 2021 - May 2022 It was a React app which used the Web API to enter, modify or delete the data in the database. We created the Web API using the .NET Web API project . The API was running on the server side and on the client side we used the Reactjs app to fetch the APIs. We used Controllers and used [HttpGet],[HttpPost], [HttpPut], and [HttpDelete] methods to create APIs. We used CORS to enable the fetching of APIs from the React app. We used an entity framework to create the database schema. We used the Models part of MVC to define the table and its columns. We used DbContext and DbSet to create the tables. We defined a Connection String to connect to the database. We used useState and useRef hooks in the React app. We used the fetch method to fetch the APIs. We also used the lifecycle methods ."
+    }
+  ]
+}

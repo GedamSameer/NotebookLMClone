@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }/* Landing card */
+.card-upload{
+  width: 360px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 14px;
+  padding: 24px 28px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(16,24,40,.08);
+  border: 1px solid #eef2f6; /* subtle edge */
+  cursor: pointer;
+}
+.card-upload--hover{ outline: 3px solid rgba(168, 85, 247, .18); outline-offset: 2px; }
+.upload-icon{
+  width: 44px; height: 44px;
+  margin: 4px auto 10px auto;
+  border-radius: 9999px;
+  display: grid; place-items: center;
+  color: #7c3aed; /* purple-600 icon */
+  background: radial-gradient(closest-side, #f5f3ff 30%, #e9d5ff 70%, #ede9fe 100%);
+}
+.upload-title{ font-weight: 700; color: #0f172a; margin-top: 4px; }
+.upload-sub{ font-size: 13px; color: #6b7280; margin-top: 2px; }
+.upload-loading{ margin-top: 10px; font-size: 12px; color: #6b7280; }
+
+/* Progress row + bar (purple theme) */
+.progress-row{ display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.progress-title{ color:#6d28d9; font-weight:600; }         /* purple-700 */
+.progress-percent{ color:#6d28d9; font-weight:600; }
+.progress-bar{ height:8px; background:#e9d5ff; border-radius:9999px; overflow:hidden; }
+.progress-bar__fill{ height:100%; width:0%; background:linear-gradient(90deg,#a78bfa,#7c3aed); border-radius:inherit; transition:width .2s ease; }
+
+/* Spinner (ring) */
+.progress-spinner{ width:18px; height:18px; border-radius:9999px; border:3px solid #e9d5ff; border-top-color:#8b5cf6; animation:spin 1s linear infinite; }
+@keyframes spin{ to { transform: rotate(360deg); } }
